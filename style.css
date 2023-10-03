@@ -50,7 +50,8 @@
     box-sizing: border-box;
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 7px 20px;
+    padding: 8px 25px;
+    font-size: 16px;
 }
 
 .button_one {
@@ -58,8 +59,16 @@
     border: 0px solid white;
 }
 
+.button_one:hover {
+    background-color: rgb(49, 177, 228);
+}
+
 .button_two {
     border: 3px solid white;
+}
+
+.button_two:hover {
+    background-color: darkblue;
 }
 
 .second_section_header {
@@ -70,13 +79,22 @@
     padding: 50px;
 }
 
-.second_section_items {
+.image_container {
     display: flex;
     justify-content: center;
+    gap: 20px;
     padding-bottom: 150px;
+    align-items: baseline;
 }
 
-.imagecontainer {
+/*
+.image_text_container {
+    display: flex;
+    padding-bottom: 150px;
+}
+*/
+
+.imagebox {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,8 +102,8 @@
     flex-wrap: wrap;
     gap: 15px;
     width: 300px;
-    margin: 0px 20px 0px 20px;
 }
+
 
 .text {
     text-align: center;
