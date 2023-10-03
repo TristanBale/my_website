@@ -37,11 +37,10 @@
     padding: 50px 150px 150px 150px;
 }
 
-.pagedescription_textbox {
+.pagedescription_textbox {   /* i am not sure why this container will stretch so much when window size changes, causing button 1 to stretch to fill too initially, but the button2 and the blue container it is in, neither stretch when window size changes */
     background-color: #1F2937;
     text-wrap: wrap;
     padding-right: 150px;
-    flex-grow: 0;
 }
 
 .signup_button {
@@ -57,6 +56,7 @@
 .button_one {
     margin-top: 20px;
     border: 0px solid white;
+    max-width: fit-content;
 }
 
 .button_one:hover {
